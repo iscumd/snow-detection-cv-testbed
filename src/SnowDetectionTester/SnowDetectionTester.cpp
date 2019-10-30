@@ -3,7 +3,7 @@
 #include "opencv2/highgui.hpp"
 
 static const int TOP_MASK_HEIGHT = 225; // Number of rows of pixels to mask at the top of the image
-static const cv::Scalar BLACK(0, 0, 0), WHITE(255, 255, 255);
+static const cv::Scalar BLACK(0, 0, 0), WHITE(255, 255, 255); // TEST COMMIT
 
 /**
 Applies a rectangular mask.
